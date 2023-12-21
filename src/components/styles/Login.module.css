@@ -1,0 +1,62 @@
+.loginFormParent {
+  border: 2px solid black;
+  width: auto;
+  height: 100vh;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+}
+.header {
+  margin: 50px auto 55px auto;
+}
+.header > div > h3 {
+  font: normal normal normal 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #36a546cc;
+  opacity: 1;
+  width: 146px;
+  height: 20px;
+}
+
+.formParent,
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.formParent > input {
+  margin: 10px;
+  border-radius: 20px;
+  width: 238px;
+  height: 42px;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  color: white;
+  padding-left: 15px;
+  border: none;
+}
+.formParent > input::placeholder {
+  color: #ffffff;
+}
+.formParent > button {
+  margin: 10px;
+  border-radius: 20px;
+  color: #ffffff8c;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  background-color: #00ff2580;
+  border: 2px solid #8cff0026;
+  width: 251px;
+  height: 42px;
+  cursor: pointer;
+}
+.formParent > a {
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36a546;
+  opacity: 1;
+  text-decoration: none;
+}

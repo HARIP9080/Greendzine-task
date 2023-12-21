@@ -1,0 +1,15 @@
+.containerParent{
+    /* border:2px solid red; */
+}
+.home{
+    position: relative;
+}
+.footers{
+    position: fixed;
+    margin-top:-83px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:9px;
+}
